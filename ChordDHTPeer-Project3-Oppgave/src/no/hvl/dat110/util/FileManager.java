@@ -57,6 +57,11 @@ public class FileManager {
 		// implement
 		
 		// set a loop where size = numReplicas
+		for(int i = 0; i < Util.numReplicas; i++) {
+			
+			String file = filename + i;
+			replicafiles[i] = Hash.hashOf(file);
+		}
 		
 		// replicate by adding the index to filename
 		
