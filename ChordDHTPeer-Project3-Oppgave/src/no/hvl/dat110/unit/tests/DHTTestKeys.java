@@ -33,7 +33,7 @@ class DHTTestKeys {
 	
 	/**
 	 * @throws java.lang.Exception
-	 */
+	 */	
 	@BeforeEach
 	void setUp() throws Exception {
 		// we use MD5 = 128bits digest 	
